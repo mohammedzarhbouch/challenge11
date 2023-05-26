@@ -47,7 +47,7 @@ session_start();
         while ($row = $result->fetch_assoc()) {
             echo "<tr>
                     <td>" . $row["title"] . "</td>
-                    <td>€" . $row["description"] . "</td>
+                    <td>" . $row["description"] . "</td>
                     <td>" . $row["date"] . "</td>
                     <td>
                     <form method='post' action='budget-delete.php'>
