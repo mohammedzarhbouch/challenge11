@@ -6,29 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link  type="text/css" rel="stylesheet" href="login.css">
     <title>Document</title>
-    
 </head>
 <body>
+    <div>
+        <img src="../Foto/oudeman.jpeg">
+    </div>
+    <div id="logo">
+        <img src="../Foto/logo.png">
+    </div>
     <div id="login-container">
         <div id="login-content">
             <form action="../back-end/authenticate.php" method="POST">
-                
-                gebruikersnaam 
+                <p class="loginNaam">Gebruikersnaam</p>
+                <input type="text" placeholder="" name="username" required>
                 <br>
-                <input type="text" placeholder="Username" name="username" required>
-                <br>
-                wachtwoord
-                <br>
-                <input type="password" placeholder="Password" name="password" required>
+                <p class="loginNaam">Wachtwoord</p>
+                <input type="password" placeholder="" name="password" required>
                 <br>
                 <input type="submit" value="Verder">
                 <div id="register-container">
                     <a href="registratie.php">Registreer</a>
                 </div>
             </form>
-            
-        </div>
-            
+        </div>   
     </div>
 </body>
 </html>
