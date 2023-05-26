@@ -39,19 +39,7 @@
 
     <div id="box1">.</div>
 
-    <?php
-        session_start();
-
-        if (isset($_SESSION['id'])) {
-            $user_id = $_SESSION['id'];
-            // User ID is properly established, you can proceed with further operations
-            echo "User ID: " . $user_id;
-        } else {
-            // User ID is not set, handle the case accordingly
-            echo "User ID is not set.";
-        }
-        
-        ?>
+    
   
         <!-- dit is de footer -->
         <main>
