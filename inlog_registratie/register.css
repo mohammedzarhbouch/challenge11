@@ -11,7 +11,7 @@ body{
 
 #login-container {
     width: 500px;
-    height: 350px;
+    height: 400px;
     display: absolute;
     justify-content: center;
     align-items: center;
@@ -38,7 +38,7 @@ body{
 
 #login-container input[name="username"] {
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     padding: 5px;
     border-radius: 20px;
     background-color: #F6AD48;
@@ -51,10 +51,11 @@ body{
     justify-content: center;
     margin-left: 70px;
     font-size: 30px;
+
     
 }
 
-#login-container input[name="password"] {
+#login-container input[name="password1"], [name="password2"] {
     
     margin-bottom: 20px;
     padding: 5px;
@@ -89,7 +90,8 @@ body{
   }
   
   #login-content form a{
-   margin-top: 50px;
+   margin-top: -20px;
+   position: absolute;
     
   }
   img{

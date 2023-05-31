@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  type="text/css" rel="stylesheet" href="register.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <img src="../Foto/oudeman.jpeg">
+    </div>
+    <div id="logo">
+        <img src="../Foto/logo.png">
+    </div>
+    <div id="login-container">
+        <div id="login-content">
+            <form action="../back-end/authenticate.php" method="POST">
+                <p class="loginNaam">Gebruikersnaam</p>
+                <input type="text" placeholder="" name="username" required>
+                <br>
+                <p class="loginNaam">Wachtwoord</p>
+                <input type="password" placeholder="" name="password1" required>
+                <br>
+                <p class="loginNaam">Herhaal wachtwoord</p>
+                <input type="password" placeholder="" name="password2" required>
+                <br>
+                <input type="submit" value="Verder">
+                <div id="register-container">
+                    <a href="login.html">Login?</a>
+                </div>
+            </form>
+        </div>   
+    </div>
+    <script>
+        function validatePasswords() {
+          var password1 = document.getElementsByName("password1")[0].value;
+          var password2 = document.getElementsByName("password2")[0].value;
+        
+          if (password1 !== password2) {
+            alert("De wachtwoorden komen niet overeen.");
+            return false; // Voorkomt dat het formulier wordt verzonden
+          }
+        
+          // Voeg hier eventueel extra validatie toe, zoals wachtwoordsterktecontroles
+        
+          return true; // Staat het formulier toe om verzonden te worden
+        }
+    </script>
+</body>
+</html>

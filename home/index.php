@@ -12,9 +12,9 @@
         <div class="navbar">
             <img src="../Foto/logo.png" class="logo">
             <ul>
-                <li><a href="#"><a href="index.html">Home</a></li>
-                <li><a href="#"><a href="profiel.html">Profiel</a></li>
-                <li><a href="#"><a href="Interesses.html">Uitloggen</a></li>
+                <li><a href="#"><a href="index.php">Home</a></li>
+                <li><a href="#"><a href="../profiel/index.html">Profiel</a></li>
+                <li><a href="#"><a href="../inlog_registratie/login.html">Uitloggen</a></li>
             </ul>
         </div>
         <form action="../notitie/notitie.php" method="POST">
