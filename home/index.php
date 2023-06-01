@@ -39,6 +39,14 @@
 
     <div id="box1">.</div>
 
+    <button class="container">
+    <button class="boxfoto"></button>
+    <button class="boxfoto"></button>
+    <button class="boxfoto"></button>
+    <button class="boxfoto"></button>
+
+    </div>
+
     
   
         <!-- dit is de footer -->

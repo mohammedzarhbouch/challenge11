@@ -241,3 +241,15 @@ footer {
     border-radius: 40px;
     
 }
+
+.boxfoto{
+    width: 260px;
+    height: 420px;
+    left: 100px;
+    top: -210px;
+    margin: 60px 27px;
+    padding: 45px 0;
+    background-color: #F6AD48;
+    border-radius: 40px;
+    position: relative;
+}
