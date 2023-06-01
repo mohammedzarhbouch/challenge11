@@ -39,20 +39,32 @@
 
     <div id="box1">.</div>
 
-    <button class="container">
-    <button class="boxfoto"></button>
-    <button class="boxfoto"></button>
-    <button class="boxfoto"></button>
-    <button class="boxfoto"></button>
+    <div class="container">
+    <div class="boxfoto"><img src="../Foto/pillen.gif" width="100%" height="60%" style="border-radius: 40px 40px 20px 20px;" ></div>
+    <div class="boxfoto"><img src="../Foto/Need a pencil_.gif" width="100%" height="60%" style="border-radius: 40px 40px 20px 20px;"></div>
+    <div class="boxfoto"><img src="../Foto/agenda.gif" width="100%" height="60%" style="border-radius: 40px 40px 20px 20px;"></div>
+    <div class="boxfoto"><img src="../Foto/Hands Typing WIP.gif" width="100%" height="60%" style="border-radius: 40px 40px 20px 20px;"></div>
 
-    </div>
+</div>
 
-    
-  
+<div id="medicineGIF">  
+<img src="../Foto/medicine.gif" width="200"/>
+</div>
+
+<div id="notesGIF">  
+<img src="../Foto/notes.gif" width="200"/>
+</div>
+
+<div id="notebookGIF">  
+<img src="../Foto/notebook.gif" width="200"/>
+</div>
+
+<div id="articleGIF">  
+<img src="../Foto/article.gif" width="200"/>
+</div>
+
         <!-- dit is de footer -->
-        <main>
-        
-        </main>
+    <!-- <main></main> -->
         <footer>
             <div id="footer_content">
                 <div id="footer_contacts">

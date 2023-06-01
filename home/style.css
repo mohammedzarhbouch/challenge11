@@ -68,9 +68,9 @@
     letter-spacing: 1px;
 }
 
-main {
+/* main {
     height: 80vh;
-}
+} */
 
 footer {
     width: 100%;
@@ -248,8 +248,39 @@ footer {
     left: 100px;
     top: -210px;
     margin: 60px 27px;
-    padding: 45px 0;
     background-color: #F6AD48;
     border-radius: 40px;
     position: relative;
+}
+
+.container{
+    display: flex;
+}
+
+#medicineGIF{
+    top: -900px;
+    left: 160px;
+    position: relative;
+    width: fit-content;
+}
+
+#notesGIF{
+    top: -1100px;
+    left: 500px;
+    position: relative;
+    width: fit-content;
+}
+
+#notebookGIF{
+    top: -1300px;
+    left: 800px;
+    position: relative;
+    width: fit-content;
+} 
+
+ #articleGIF{
+    top: -1505px;
+    left: 1120px;
+    position: relative;
+    width: fit-content;
 }
