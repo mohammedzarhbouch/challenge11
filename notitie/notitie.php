@@ -6,7 +6,7 @@ session_start();
 
 
     $user_id = $_SESSION['id'];
-	$sql = "SELECT * FROM notitie WHERE user_id = '$user_id'";
+	$sql = "SELECT * FROM notities WHERE user_id = '$user_id'";
 	$result = $con->query($sql);
 
 

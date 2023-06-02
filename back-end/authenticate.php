@@ -42,4 +42,21 @@ if ($statement = $con->prepare('SELECT id, password FROM users WHERE username = 
 	
 	
 }
+
+
+
+
+
 ?>
+
+
+
+
+
+
+
+
+
+
+
+

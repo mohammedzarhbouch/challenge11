@@ -11,7 +11,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $user_id = $_SESSION['id'];
 
    
-    $sql = "INSERT INTO notitie (title, description, date, user_id) VALUES (?, ?, ?, ?)";
+    $sql = "INSERT INTO notities (title, description, date, user_id) VALUES (?, ?, ?, ?)";
     $stmt = $con->prepare($sql);
     $stmt->bind_param("sssi", $title, $description, $date, $user_id);
 
