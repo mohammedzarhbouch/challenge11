@@ -242,6 +242,10 @@ footer {
     
 }
 
+.paginas{
+    display: flex;
+}
+
 .boxfoto{
     width: 260px;
     height: 420px;
@@ -253,9 +257,6 @@ footer {
     position: relative;
 }
 
-.container{
-    display: flex;
-}
 
 #medicineGIF{
     top: -900px;

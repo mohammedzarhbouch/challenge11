@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ZorgVitaal</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.js">
 </head>
 <body>
     <div class="banner">
@@ -39,13 +40,15 @@
 
     <div id="box1">.</div>
 
-    <div class="container">
+    <div class="paginas">
     <div class="boxfoto"><img src="../Foto/pillen.gif" width="100%" height="60%" style="border-radius: 40px 40px 20px 20px;" ></div>
     <div class="boxfoto"><img src="../Foto/Need a pencil_.gif" width="100%" height="60%" style="border-radius: 40px 40px 20px 20px;"></div>
     <div class="boxfoto"><img src="../Foto/agenda.gif" width="100%" height="60%" style="border-radius: 40px 40px 20px 20px;"></div>
     <div class="boxfoto"><img src="../Foto/Hands Typing WIP.gif" width="100%" height="60%" style="border-radius: 40px 40px 20px 20px;"></div>
 
 </div>
+
+
 
 <div id="medicineGIF">  
 <img src="../Foto/medicine.gif" width="200"/>
@@ -71,15 +74,15 @@
                     <p>Leef Vitaal, Kies Zorgvitaal</p>
     
                     <div id="footer_social_media">
-                        <a href="#" class="footer-link" id="instagram">
+                        <a href="https://www.instagram.com/" class="footer-link" id="instagram">
                             <i class="fa-brands fa-instagram"></i>
                         </a>
     
-                        <a href="#" class="footer-link" id="facebook">
+                        <a href="https://nl-nl.facebook.com/" class="footer-link" id="facebook">
                             <i class="fa-brands fa-facebook-f"></i>
                         </a>
     
-                        <a href="#" class="footer-link" id="whatsapp">
+                        <a href="https://web.whatsapp.com/" class="footer-link" id="whatsapp">
                             <i class="fa-brands fa-whatsapp"></i>
                         </a>
                     </div>
