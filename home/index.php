@@ -15,12 +15,10 @@
             <ul>
                 <li><a href="#"><a href="index.php">Home</a></li>
                 <li><a href="#"><a href="../profiel/index.html">Profiel</a></li>
-                <li><a href="#"><a href="../inlog_registratie/login.html">Uitloggen</a></li>
+                <li><a href="#"><a href="../back-end/loguit.php">Uitloggen</a></li>
             </ul>
         </div>
-        <form action="../notitie/notitie.php" method="POST">
-        <input type="submit" value="notitie">
-        </form>
+        
 
         <container>
         <div>
@@ -41,14 +39,27 @@
     <div id="box1">.</div>
 
     <div class="paginas">
-    <div class="boxfoto"><img src="../Foto/pillen.gif" width="100%" height="60%" style="border-radius: 40px 40px 20px 20px;" ></div>
-    <div class="boxfoto"><img src="../Foto/Need a pencil_.gif" width="100%" height="60%" style="border-radius: 40px 40px 20px 20px;"></div>
+
+    <div class="boxfoto" onclick="redirectToPage()">
+    <img src="../Foto/pillen.gif" width="100%" height="60%" style="border-radius: 40px 40px 20px 20px;" ></div>
+
+    <div class="boxfoto" onclick="redirectToPage2()">
+    <img src="../Foto/Need a pencil_.gif" width="100%" height="60%" style="border-radius: 40px 40px 20px 20px;"></div>
+
     <div class="boxfoto"><img src="../Foto/agenda.gif" width="100%" height="60%" style="border-radius: 40px 40px 20px 20px;"></div>
     <div class="boxfoto"><img src="../Foto/Hands Typing WIP.gif" width="100%" height="60%" style="border-radius: 40px 40px 20px 20px;"></div>
 
 </div>
 
+<script>
+  function redirectToPage() {
+    window.location.href = "../medicatie/pill.php"; // Replace with the URL of the page you want to navigate to
+  }
 
+  function redirectToPage2() {
+    window.location.href = "../notitie/notitie.php"; // Replace with the URL of the page you want to navigate to
+  }
+</script>
 
 <div id="medicineGIF">  
 <img src="../Foto/medicine.gif" width="200"/>

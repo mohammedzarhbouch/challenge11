@@ -68,9 +68,9 @@
     letter-spacing: 1px;
 }
 
-/* main {
+main {
     height: 80vh;
-} */
+}
 
 footer {
     width: 100%;
@@ -86,6 +86,8 @@ footer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     padding: 3rem 3.5rem;
+    top: 500px;
+    
 }
 
 #footer_contacts h1 {
@@ -255,6 +257,8 @@ footer {
     background-color: #F6AD48;
     border-radius: 40px;
     position: relative;
+    cursor: pointer;
+    z-index: 1;
 }
 
 
@@ -285,3 +289,9 @@ footer {
     position: relative;
     width: fit-content;
 }
+
+
+img{
+    /* cursor: pointer; */
+}
+

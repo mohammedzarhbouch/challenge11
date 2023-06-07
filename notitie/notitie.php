@@ -27,9 +27,9 @@ session_start();
         <div class="navbar">
             <img src="../Foto/logo.png" class="logo">
             <ul>
-                <li><a href="#"><a href="index.html">Home</a></li>
-                <li><a href="#"><a href="profiel.html">Profiel</a></li>
-                <li><a href="#"><a href="Interesses.html">Uitloggen</a></li>
+                <li><a href="#"><a href="../home/index.html">Home</a></li>
+                <li><a href="#"><a href="../profiel/profiel.html">Profiel</a></li>
+                <li><a href="#"><a href="../back-end/loguit.php">Uitloggen</a></li>
             </ul>
         </div>
 
@@ -54,7 +54,7 @@ session_start();
                             <td>" . $row["description"] . "</td>
                             <td>" . $row["date"] . "</td>
                             <td>
-                                <form method='post' action='delete.php'>
+                                <form method='post' action='delete-notitie.php'>
                                     <input type='hidden' name='id' value='" . $row["notitie_id"] . "'>
                                     <button type='submit' class='delete-button'>Verwijderen</button>
                                 </form>

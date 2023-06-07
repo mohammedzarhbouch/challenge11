@@ -6,3 +6,5 @@ $("#gif1").hover(
         $(this).attr("src", "static1.jpg");
     }                         
 );
+
+
