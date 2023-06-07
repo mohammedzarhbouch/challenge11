@@ -19,7 +19,7 @@ $result = $con->query($sql);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="main-styles.css">
 
     <title>Medicatie</title>
 </head>
@@ -35,13 +35,17 @@ $result = $con->query($sql);
         </div>
     <main>
         
-        	<button class="button-toevoegen"><a href="toevoegen.php">toevoegen</a></button>    
+    <button class="button-toevoegen" onclick="window.location.href = 'toevoegen.php';">Toevoegen</button>
+
+    
+
+    
 
     <div class="day_box_container">
     <?php
     // Fetch the distinct day values from the database
     $sql = "SELECT DISTINCT day FROM pills";
-    $result = $con->query($sql);
+    $result = $con->query($sql); 
 
     // Iterate over the days
     while ($row = $result->fetch_assoc()) {
@@ -63,7 +67,7 @@ $result = $con->query($sql);
 
                 echo '<div class="pill">';
                 echo "<div class='pill_naam'>$name</div>";
-                echo "<div class='pill_amount'>Amount: $amount</div>";
+                echo "<div class='pill_amount'>hoeveelheid: $amount</div>";
                 echo '</div>';
             }
         } else {

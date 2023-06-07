@@ -229,7 +229,7 @@ footer {
         flex-wrap: wrap; /* Allow wrapping to next line */
         justify-content: center;
         align-items: center;
-        margin-top: 50px;
+        margin-top: 20px;
         margin-bottom: 50px;
         width: 80%;
         background-color: orange;
@@ -284,8 +284,23 @@ footer {
     
  .button-toevoegen{
     background-color: white;
-    margin: 10px;
+    position: flex;
+    margin-left: 200px;
+    margin-top: 50px;
+    padding: 10px;
+    background-color: lightgreen;
+    cursor: pointer;
+
+ }
+
+ .button-verwijderen{
+    background-color: white;
+    position: flex;
     
+    margin-top: 50px;
+    padding: 10px;
+    background-color: red;
+    cursor: pointer;
 
  }
     
