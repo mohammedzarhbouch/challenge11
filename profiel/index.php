@@ -2,7 +2,7 @@
 session_start();
 
 require_once('../back-end/conn.php');
-$username = $_SESSION['name'];
+$username = $_SESSION['username'];
 $query = "SELECT password FROM users WHERE username='$username'";
 $result = mysqli_query($con, $query);
 if ($result) {
