@@ -12,14 +12,12 @@
         <div class="navbar">
             <img src="../Foto/logo.png" class="logo">
             <ul>
-                <li><a href="#"><a href="index.php">Home</a></li>
-                <li><a href="#"><a href="../profiel/index.html">Profiel</a></li>
-                <li><a href="#"><a href="../inlog_registratie/login.html">Uitloggen</a></li>
+                <li><a href="#"><a href="../home/index.php">Home</a></li>
+                <li><a href="#"><a href="../profiel/index.php">Profiel</a></li>
+                <li><a href="#"><a href="../back-end/loguit.php">Uitloggen</a></li>
             </ul>
         </div>
-        <form action="../notitie/notitie.php" method="POST">
-        <input type="submit" value="notitie">
-        </form>
+        
 
         <container>
         <div>

@@ -16,12 +16,12 @@
     </div>
     <div id="login-container">
         <div id="login-content">
-            <form action="../back-end/authenticate.php" method="POST">
+            <form action="../back-end/register.php" method="POST">
                 <p class="loginNaam">Gebruikersnaam</p>
                 <input type="text" placeholder="" name="username" required>
                 <br>
                 <p class="loginNaam">Wachtwoord</p>
-                <input type="password" placeholder="" name="password1" required>
+                <input type="password" placeholder="" name="password" required>
                 <br>
                 <p class="loginNaam">Herhaal wachtwoord</p>
                 <input type="password" placeholder="" name="password2" required>
@@ -35,10 +35,10 @@
     </div>
     <script>
         function validatePasswords() {
-          var password1 = document.getElementsByName("password1")[0].value;
+          var password = document.getElementsByName("password")[0].value;
           var password2 = document.getElementsByName("password2")[0].value;
         
-          if (password1 !== password2) {
+          if (password !== password2) {
             alert("De wachtwoorden komen niet overeen.");
             return false; // Voorkomt dat het formulier wordt verzonden
           }
