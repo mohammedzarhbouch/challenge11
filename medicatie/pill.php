@@ -29,8 +29,8 @@ $result = $con->query($sql);
             <img src="../Foto/logo.png" class="logo">
             <ul>
                 <li><a href="#"><a href="../home/index.php">Home</a></li>
-                <li><a href="#"><a href="../profiel/index.html">Profiel</a></li>
-                <li><a href="#"><a href="../inlog_registratie/login.html">Uitloggen</a></li>
+                <li><a href="#"><a href="../profiel/index.php">Profiel</a></li>
+                <li><a href="#"><a href="../back-end/loguit.php">Uitloggen</a></li>
             </ul>
         </div>
     <main>
@@ -53,6 +53,7 @@ $result = $con->query($sql);
 
         echo '<div class="day_box">';
         echo "<div class='day_name'>$day</div>";
+        echo "<div class='delete_button'><button onclick='deleteDay(\"$day\")'>Delete</button></div>";
         echo '<div class="pill_container">';
 
         // Fetch pills for the current day from the database
@@ -77,7 +78,16 @@ $result = $con->query($sql);
         echo '</div>'; // Close pill_container
         echo '</div>'; // Close day_box
     }
-    ?>
+?>
+
+<script>
+    function deleteDay(day) {
+        // Perform an AJAX request or form submission to delete the day from the database
+        // You can use the day value to identify and delete the respective records
+        // Refresh the page or update the UI after successful deletion
+    }
+</script>
+
 </div>
 
         
