@@ -29,8 +29,8 @@ if ($result) {
             <img src="../Foto/logo.png" class="logo">
             <ul>
                 <li><a href="#"><a href="../home/index.php">Home</a></li>
-                <li><a href="#"><a href="index.html">Profiel</a></li>
-                <li><a href="#"><a href="../inlog_registratie/login.html">Uitloggen</a></li>
+                <li><a href="#"><a href="../profiel/index.php">Profiel</a></li>
+                <li><a href="#"><a href="../back-end/loguit.php">Uitloggen</a></li>
             </ul>
         </div>
     </div>

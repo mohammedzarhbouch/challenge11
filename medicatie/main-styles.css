@@ -251,6 +251,7 @@ footer {
         flex: 1 0 calc(100% / 4); /* Distribute equally into 7 columns */
         max-width: calc(100% / 4); /* Set max-width for each day box */
         box-sizing: border-box; /* Include padding in total width */
+        border-radius: 5px;
     }
     
     .day_name {
@@ -263,12 +264,14 @@ footer {
         flex-direction: column;
         align-items: center;
         margin-top: 10px;
+        border-radius: 50px;
     }
     
     .pill {
         display: flex;
         align-items: center;
         margin-bottom: 5px;
+        
     }
     
     .pill_naam,
@@ -293,14 +296,26 @@ footer {
 
  }
 
- .button-verwijderen{
+ .delete_button {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin-right: 15px;
+  }
+  
+  .delete_button button {
     background-color: white;
-    position: flex;
-    
-    margin-top: 50px;
-    padding: 10px;
-    background-color: red;
+    margin-top: 0px;
+    padding: 5px;
+    background-color: rgba(255, 0, 0, 0.562);
     cursor: pointer;
-
- }
+    transition: .2s ease-in-out;
+  }
     
+
+ .delete_button button:hover{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    transition: .2s ease-in-out;
+    border-color: rgb(173, 173, 173);
+ }

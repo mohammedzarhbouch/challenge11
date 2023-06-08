@@ -5,24 +5,28 @@ include "../back-end/conn.php";
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
     // Retrieve form data
-    
     $user_id = $_SESSION['id'];
     $pill_name = $_POST['pill_name'];
     $pill_amount = $_POST['pill_amount'];
     $day = $_POST['day'];
 
+    // Define the allowed days
+    $allowed_days = array("maandag", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag", "zondag");
+
+    // Check if the submitted day is in the allowed days
+    if (!in_array($day, $allowed_days)) {
+        echo "Ongeldige dag. Alleen de volgende dagen zijn toegestaan: maandag, dinsdag, woensdag, donderdag, vrijdag, zaterdag, zondag.";
+        exit();
+    }
 
     $sql = "INSERT INTO pills (pill_name, pill_amount, day, user_id) VALUES (?, ?, ?, ?)";
     $stmt = $con->prepare($sql);
     $stmt->bind_param("sisi", $pill_name, $pill_amount, $day, $user_id);
 
-   
     if ($stmt->execute()) {
-      
         header("Location: pill.php");
         exit();
     } else {
-       
         echo "Er is iets fout gegaan. Probeer het later nog eens.";
         exit();
     }
@@ -30,9 +34,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $stmt->close();
     $conn->close();
 }
-
-
 ?>
+
 
 
 
