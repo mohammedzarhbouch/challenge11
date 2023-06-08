@@ -44,7 +44,7 @@
         <img src="../Foto/Need a pencil_.gif" width="100%" height="60%" style="border-radius: 40px 40px 20px 20px;">Notities
     </div>
     <div class="boxfoto">
-        <img src="../Foto/agenda.gif" width="100%" height="60%" style="border-radius: 40px 40px 20px 20px;">Agenda
+        <img src="../Foto/agenda.gif" width="100%" height="60%" style="border-radius: 40px 40px 20px 20px;">Agenda<br><br>onder werkzaamheden...</br></br>
     </div>
 
     <div class="boxfoto">
@@ -54,7 +54,6 @@
 </div>
 
 <div id="medicineGIF"> 
-<a href="https://www.example.com">
 <img src="../Foto/medicine.gif" width="200"/>
 </div>
 
