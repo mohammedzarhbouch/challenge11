@@ -2,7 +2,7 @@
 session_start();
 
 require_once('../back-end/conn.php');
-$username = $_SESSION['name'];
+$username = $_SESSION['username'];
 $query = "SELECT password FROM users WHERE username='$username'";
 $result = mysqli_query($con, $query);
 if ($result) {
@@ -29,8 +29,8 @@ if ($result) {
             <img src="../Foto/logo.png" class="logo">
             <ul>
                 <li><a href="#"><a href="../home/index.php">Home</a></li>
-                <li><a href="#"><a href="index.html">Profiel</a></li>
-                <li><a href="#"><a href="../inlog_registratie/login.html">Uitloggen</a></li>
+                <li><a href="#"><a href="../profiel/index.php">Profiel</a></li>
+                <li><a href="#"><a href="../back-end/loguit.php">Uitloggen</a></li>
             </ul>
         </div>
     </div>

@@ -37,20 +37,33 @@
 
     <div id="box1">.</div>
     <div class="paginas">
-    <div class="boxfoto">
+    <div class="boxfoto"  onclick="redirectToPage()">
         <img src="../Foto/pillen.gif" width="100%" height="60%" style="border-radius: 40px 40px 20px 20px;">Medicatie
     </div>
-    <div class="boxfoto">
+    <div class="boxfoto" onclick="redirectToPage2()">
         <img src="../Foto/Need a pencil_.gif" width="100%" height="60%" style="border-radius: 40px 40px 20px 20px;">Notities
     </div>
-    <div class="boxfoto">
+    <div class="boxfoto" >
         <img src="../Foto/agenda.gif" width="100%" height="60%" style="border-radius: 40px 40px 20px 20px;">Agenda<br><br>onder werkzaamheden...</br></br>
     </div>
 
-    <div class="boxfoto">
+    <div class="boxfoto" onclick="redirectToPage3()">
         <img src="../Foto/Hands Typing WIP.gif" width="100%" height="60%" style="border-radius: 40px 40px 20px 20px;">Artikelen
     </div>
 
+    +<script>
+  function redirectToPage() {
+    window.location.href = "../medicatie/pill.php"; // Replace with the URL of the page you want to navigate to
+  }
+
+  function redirectToPage2() {
+    window.location.href = "../notitie/notitie.php"; // Replace with the URL of the page you want to navigate to
+  }
+
+  function redirectToPage3() {
+    window.location.href = "../artikel/artikel.html"; // Replace with the URL of the page you want to navigate to
+  }
+</script>
 </div>
 
 <div id="medicineGIF"> 

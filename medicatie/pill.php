@@ -45,7 +45,7 @@ $result = $con->query($sql);
     <?php
     // Fetch the distinct day values from the database
     $sql = "SELECT DISTINCT day FROM pills";
-    $result = $con->query($sql); 
+    $result = $con->query($sql);
 
     // Iterate over the days
     while ($row = $result->fetch_assoc()) {
@@ -53,9 +53,14 @@ $result = $con->query($sql);
 
         echo '<div class="day_box">';
         echo "<div class='day_name'>$day</div>";
-        echo "<div class='delete_button'><button onclick='deleteDay(\"$day\")'>Delete</button></div>";
-        echo '<div class="pill_container">';
 
+        // Create a form for each day
+        echo "<form action='delete-pill.php' method='post'>";
+        echo "<input type='hidden' name='id' value='$day'>"; // Hidden input field with the day value
+        echo "<div class='delete_button'><button type='submit'>delete</button></div>"; // Modify delete button
+
+        echo '<div class="pill_container">';
+        
         // Fetch pills for the current day from the database
         $sql_pills = "SELECT pill_name, pill_amount FROM pills WHERE day = '$day'";
         $result_pills = $con->query($sql_pills);
@@ -76,17 +81,14 @@ $result = $con->query($sql);
         }
 
         echo '</div>'; // Close pill_container
+        echo '</form>'; // Close the form
         echo '</div>'; // Close day_box
     }
-?>
+    ?>
+</div>
 
-<script>
-    function deleteDay(day) {
-        // Perform an AJAX request or form submission to delete the day from the database
-        // You can use the day value to identify and delete the respective records
-        // Refresh the page or update the UI after successful deletion
-    }
-</script>
+</div>
+
 
 </div>
 
