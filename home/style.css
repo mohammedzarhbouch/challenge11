@@ -1,13 +1,13 @@
 *{
-
     margin: 0;
-
     padding: 0;
-
-    font-family: sans-serif;
-
+    font-family: 'Andika-Bold', sans-serif;
 }
-
+@font-face {
+    font-family: 'Andika-Bold';
+    src: url('Andika-Bold.ttf') format('truetype');
+    /* Voeg meer src-regels toe voor andere lettertypebestandsindelingen als je die hebt */
+}
 .banner{
 
     width: 100%;
@@ -128,7 +128,7 @@
 
 * {
 
-    font-family: 'Inter', sans-serif;
+    font-family: 'Andika-Bold', sans-serif;
 
     margin: 0;
 
@@ -364,25 +364,15 @@ footer {
 
 
 #input_group button {
-
     background-color: #F6AD48;
-
     border: none;
-
     color: var(--color-neutral-40);
-
     padding: 0px 1.25rem;
-
     font-size: 1.125rem;
-
     height: 100%;
-
     border-radius: 0px 4px 4px 0px;
-
     cursor: pointer;
-
     transition: all 0.4s;
-
 }
 
 
@@ -441,7 +431,7 @@ footer {
 
 #tekst{
     width: 600px;
-    top: -220px;
+    top: -200px;
     left: 810px;
     position: relative;
 }
@@ -465,7 +455,7 @@ footer {
 #box1{
     width: 650px;
     height: 370px;
-    top: -410px;
+    top: -500px;
     left: 780px;
     position: relative;
     background-color:#f5e3ca;
@@ -495,6 +485,7 @@ footer {
     box-shadow: 0 0.4rem 1.4rem 0 #F6AD48;
     transition: transform 350ms;
     transform: scale(1.03);
+    border: solid;
 }
 
 #medicineGIF{

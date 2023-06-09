@@ -19,7 +19,7 @@
         </div>
         
 
-        <container>
+    <container>
         <div>
             <img src="../Foto/Blije-ouderen-canva.jpg" id="fotohome">
         </div>
@@ -32,7 +32,8 @@
                 we ook voor emotionele ondersteuning door middel van gezelschap,
                 luisteren naar hun verhalen en het bieden van een sociaal netwerk.
                 We streven ernaar om ouderen te helpen hun onafhankelijkheid te
-                behouden en te genieten van een gelukkig en vervuld leven.</div>
+                behouden en te genieten van een gelukkig en vervuld leven.
+            </div>
     </container>
 
     <div id="box1">.</div>
