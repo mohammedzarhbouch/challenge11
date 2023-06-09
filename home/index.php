@@ -96,10 +96,10 @@
                     </li>
 
                     <li>
-                        <a href="#" class="footer-link">Over Ons</a>
+                        <a href="aboutUs.html" class="footer-link">Over Ons</a>
                     </li>
                     <li>
-                        <a href="#" class="footer-link">Contact</a>
+                        <a href="contactpage.html" class="footer-link">Contact</a>
                     </li>
                     <li>
                         <a href="#" class="footer-link">Evenementen</a>
