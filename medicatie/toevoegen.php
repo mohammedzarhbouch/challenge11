@@ -24,6 +24,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $stmt->bind_param("sisi", $pill_name, $pill_amount, $day, $user_id);
 
     if ($stmt->execute()) {
+        $stmt->close();
+        $con->close();
         header("Location: pill.php");
         exit();
     } else {
@@ -31,8 +33,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         exit();
     }
 
-    $stmt->close();
-    $conn->close();
+    
 }
 ?>
 
@@ -55,7 +56,11 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             <input type="text" name="pill_amount" placeholder="Hoeveelheid">
             <input type="text" name="day" placeholder="Dag">
             <button type="submit" class="add-button" href="pill.php">toevoegen</button>
+           
         </form>
+        
         </div>
+
+        <a class="button" href="pill.php">terug</a>
 </body>
 </html>
