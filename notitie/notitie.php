@@ -85,80 +85,80 @@ session_start();
         
         </main>
         <footer>
-            <div id="footer_content">
-                <div id="footer_contacts">
-                    <p>Leef Vitaal, Kies Zorgvitaal</p>
-    
-                    <div id="footer_social_media">
-                        <a href="#" class="footer-link" id="instagram">
-                            <i class="fa-brands fa-instagram"></i>
-                        </a>
-    
-                        <a href="#" class="footer-link" id="facebook">
-                            <i class="fa-brands fa-facebook-f"></i>
-                        </a>
-    
-                        <a href="#" class="footer-link" id="whatsapp">
-                            <i class="fa-brands fa-whatsapp"></i>
-                        </a>
-                    </div>
-                </div>
-                
-                <ul class="footer-list">
-                    <li>
-                        <h3>HANDIGE LINKS</h3>
-                    </li>
-                    <li>
-                        <a href="#" class="footer-link">Over Ons</a>
-                    </li>
-                    <li>
-                        <a href="#" class="footer-link">Contact</a>
-                    </li>
-                    <li>
-                        <a href="#" class="footer-link">Evenementen</a>
-                    </li>
-                </ul>
-    
-                <ul class="footer-list">
-                    <li>
-                        <h3>PAGINA'S</h3>
-                    </li>
-                    <li>
-                        <a href="#" class="footer-link">Mijn Pillen</a>
-                    </li>
-                    <li>
-                        <a href="#" class="footer-link">Artikelen</a>
-                    </li>
-                    <li>
-                        <a href="#" class="footer-link">Notities</a>
-                    </li>
-                    <li>
-                        <a href="#" class="footer-link">Agenda</a>
-                    </li>
-                </ul>
-    
-                <div id="footer_subscribe">
-                    <h3>ABONNEER</h3>
-    
-                    <p>
-                        vul hier jouw e-mail in om op de hoogte te blijven 
-                        van ons laatste nieuws!
-                    </p>
-    
-                    <div id="input_group">
-                        <input type="email" id="email">
-                        <button>
-                            <i class="fa-regular fa-envelope"></i>
-                        </button>
-                    </div>
+        <div id="footer_content">
+            <div id="footer_contacts">
+                <p>Leef Vitaal, Kies Zorgvitaal</p>
+                <div id="footer_social_media">
+                    <a href="https://www.instagram.com/" class="footer-link" id="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="https://nl-nl.facebook.com/" class="footer-link" id="facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a href="https://web.whatsapp.com/" class="footer-link" id="whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
                 </div>
             </div>
-    
-            <div id="footer_copyright">
-                &#169
-                2023 Leef Vitaal, Kies Zorgvitaal
+
+            <ul class="footer-list">
+                <li>
+                    <h3>HANDIGE LINKS</h3>
+                </li>
+
+                <li>
+                    <a href="../home/aboutUs.html" class="footer-link">Over Ons</a>
+                </li>
+                <li>
+                    <a href="../home/contactpage.html" class="footer-link">Contact</a>
+                </li>
+                <li>
+                    <a href="../homeindex.php" class="footer-link">homePage</a>
+                </li>
+            </ul>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>PAGINA'S</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Mijn Pillen</a>
+                </li>
+                <li>
+                    <a href="artikel.html" class="footer-link">Artikelen</a>
+                </li>
+                <li>
+                    <a href="../notitie/notitie.php" class="footer-link">Notities</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Agenda</a>
+                </li>
+            </ul>
+
+            <div id="footer_subscribe">
+                <h3>ABONNEER</h3>
+
+                <p>
+                    vul hier jouw e-mail in om op de hoogte te blijven
+                    van ons laatste nieuws!
+                </p>
+
+                <div id="input_group">
+                    <input type="email" id="email">
+                    <button>
+                        <i class="fa-regular fa-envelope"></i>
+                    </button>
+                </div>
             </div>
-        </footer>
+        </div>
+
+        <div id="footer_copyright">
+            &#169
+            2023 Leef Vitaal, Kies Zorgvitaal
+        </div>
+    </footer>
 
 </body>
 </html>

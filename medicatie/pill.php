@@ -103,34 +103,34 @@ $result = $con->query($sql);
         <div id="footer_content">
             <div id="footer_contacts">
                 <p>Leef Vitaal, Kies Zorgvitaal</p>
-
                 <div id="footer_social_media">
-                    <a href="#" class="footer-link" id="instagram">
+                    <a href="https://www.instagram.com/" class="footer-link" id="instagram">
                         <i class="fa-brands fa-instagram"></i>
                     </a>
 
-                    <a href="#" class="footer-link" id="facebook">
+                    <a href="https://nl-nl.facebook.com/" class="footer-link" id="facebook">
                         <i class="fa-brands fa-facebook-f"></i>
                     </a>
 
-                    <a href="#" class="footer-link" id="whatsapp">
+                    <a href="https://web.whatsapp.com/" class="footer-link" id="whatsapp">
                         <i class="fa-brands fa-whatsapp"></i>
                     </a>
                 </div>
             </div>
-            
+
             <ul class="footer-list">
                 <li>
                     <h3>HANDIGE LINKS</h3>
                 </li>
+
                 <li>
-                    <a href="#" class="footer-link">Over Ons</a>
+                    <a href="../home/aboutUs.html" class="footer-link">Over Ons</a>
                 </li>
                 <li>
-                    <a href="#" class="footer-link">Contact</a>
+                    <a href="../home/contactpage.html" class="footer-link">Contact</a>
                 </li>
                 <li>
-                    <a href="#" class="footer-link">Evenementen</a>
+                    <a href="../homeindex.php" class="footer-link">homePage</a>
                 </li>
             </ul>
 
@@ -142,10 +142,10 @@ $result = $con->query($sql);
                     <a href="#" class="footer-link">Mijn Pillen</a>
                 </li>
                 <li>
-                    <a href="#" class="footer-link">Artikelen</a>
+                    <a href="artikel.html" class="footer-link">Artikelen</a>
                 </li>
                 <li>
-                    <a href="#" class="footer-link">Notities</a>
+                    <a href="../notitie/notitie.php" class="footer-link">Notities</a>
                 </li>
                 <li>
                     <a href="#" class="footer-link">Agenda</a>
@@ -156,7 +156,7 @@ $result = $con->query($sql);
                 <h3>ABONNEER</h3>
 
                 <p>
-                    vul hier jouw e-mail in om op de hoogte te blijven 
+                    vul hier jouw e-mail in om op de hoogte te blijven
                     van ons laatste nieuws!
                 </p>
 
